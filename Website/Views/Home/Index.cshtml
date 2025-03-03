@@ -1,0 +1,895 @@
+﻿@model MyApp.Models.CustomerModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Micro Computer Training Center</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="~/assets/img/favicon.ico" rel="icon">
+    <link href="~/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+
+    <link href="~/assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="~/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/assets/css/style.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center"><h6 style="color: white;position:relative"><a style="color: white;" href="home.html">Call Us: +91-85330 29723 Mail Us: mctc@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: white;" href="home.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MIG 125, Jawahar Puram, Albatiya Road, Shahganj, Agra</a></h6></div>
+
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto"><a href="home.html"></a><a href="home.html">MICRO COMPUTER TRAINING CENTER</a></h1>
+            <div>
+                <a href="home.html" class="logo me-auto"><img src="~/assets/img/mctclogo.png" alt="" class="img-fluid" width="150"></a>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link   scrollto" href="#portfolio">Photos</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li class="dropdown">
+                        <a href="#"><span>Courses</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Python</a></li>
+                            <li class="dropdown">
+                                <a href="#"><span>Web Designing</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">HTML5</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                    <li><a href="#">Java Script</a></li>
+                                    <li><a href="#">Jquery</a></li>
+                                    <li><a href="#">BootStrap</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">JAVA</a></li>
+                            <li><a href="#">Tally.Erp9</a></li>
+                            <li><a href="#">Programming With C</a></li>
+                            <li><a href="#">OOPS With C++</a></li>
+                            <li><a href="#">C Sharp</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li><a class="getstarted scrollto" href="/Home/Login">Login</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                    <h1>Better Courses For Your Carrer</h1>
+                    <h2>Empower yourself with computer knowledge.</h2>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                    <br>
+                    <img src="~/assets/img/photo.jpg" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= Clients Section ======= -->
+        <section id="clients" class="clients section-bg">
+            <div class="container">
+
+                <div class="row" data-aos="zoom-in">
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="~/assets/img/clients/google.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="~/assets/img/clients/msme.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="~/assets/img/clients/gho.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="~/assets/img/clients/tally.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="~/assets/img/clients/paytm.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="~/assets/img/clients/client-6.png" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Cliens Section -->
+        <!-- ======= About Us Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>About Us</h2>
+                </div>
+
+                <div class="row content">
+                    <div class="col-lg-6">
+                        <p>
+                            Micro Computer Training Centre in Agra is one of the leading businesses in the Accounting Training Institutes. Also known for Computer Training Institutes, Institutes, Tally Training Institutes, O Level Training Institutes, Python Training Institutes, Java Training Institutes, Accounting Training Institutes, CCC Training Institutes and much more.<br><b>Address:- </b>MIG-125, Jawahar Puram, Albatiya Road, Shahganj, Agra, Uttar Pradesh, Pin-282010
+                            <br>
+                            <center><b>What are its hours of operation ?</b></center>
+
+                        </p>
+                        <ul>
+                            <li><i class="ri-check-double-line"></i> Monday:- Closed</li>
+                            <li><i class="ri-check-double-line"></i> Tuesday:- 8:00 Am - 7:00 Pm</li>
+                            <li><i class="ri-check-double-line"></i> Wednesday:- 8:00 Am - 7:00 Pm</li>
+                            <li><i class="ri-check-double-line"></i> Thursday:- 8:00 Am - 7:00 Pm</li>
+                            <li><i class="ri-check-double-line"></i> Friday:- 8:00 Am - 7:00 Pm</li>
+                            <li><i class="ri-check-double-line"></i> Saturday:- 8:00 Am - 7:00 Pm</li>
+                            <li><i class="ri-check-double-line"></i> Sunday:- 8:00 Am - 7:00 Pm</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <p>
+                            <img src="~/assets/img/portfolio/aboutusimage.png" class="img-fluid" alt="">
+                        </p>
+
+                        <a href="#" class="btn-learn-more">Learn More</a>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Us Section -->
+        <!-- ======= Why Us Section ======= -->
+        <section id="why-us" class="why-us section-bg">
+            <div class="container-fluid" data-aos="fade-up">
+
+                <div class="row">
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+                        <div class="content">
+                            <h3><strong>OUR POPULAR COURSES</strong></h3>
+                        </div>
+
+                        <div class="accordion-list">
+                            <ul>
+                                <li>
+                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> DIPLOMA IN COMPUTER APPLICATION ( S-S-S-S-D-01 )<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                                        <p>
+                                            <b>Course Description</b>
+
+                                            DCA courses are often suitable for beginners who want to gain essential computer skills for personal or entry-level job requirements. Upon completion of the course, individuals may seek job opportunities as office assistants, data entry operators, computer operators, or pursue further studies in the field of computer applications and IT. Additionally, the knowledge gained from a DCA program can be beneficial for individuals in various professional fields where computer literacy is essential.
+                                            <img src="~/assets/img/dca.jpg" class="img-fluid" alt="">
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> DIPLOMA IN FINANCIAL ACCOUNTING ( S-S-S-D-03 )<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                                        <p>
+                                            <b>Course Description</b>
+                                            Tally is widely used in various industries and is particularly popular among small and medium-sized businesses due to its user-friendly interface and cost-effectiveness. Completing a Tally course can significantly enhance your accounting skills and increase your employability in the job market.
+                                            <img src="~/assets/img/dfa.jpg" class="img-fluid" alt="">
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> MASTER DIPLOMA IN COMPUTER APPLICATION ( M-M-D-04 )<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                                        <p>
+                                            <b>Course Description</b>
+                                            This course is suitable for individuals who want to enhance their skills and knowledge in computer applications beyond the basic level to advance level. It can prepare students for various job roles such as Computer Operator, Accountant, Administrator, database administrators, Graphic Designer, and more, depending on the specific areas covered in the curriculum.
+                                            <img src="~/assets/img/mdca.jpg" class="img-fluid" alt="">
+                                        </p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" , style="background-image: url('/assets/img/portfolio/best.PNG'); background-size: 100% 75% " data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+                </div>
+
+
+            </div>
+        </section><!-- End Why Us Section -->
+        <!-- ======= Skills Section ======= -->
+        <section id="skills" class="skills">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                        <img src="~/assets/img/rating.PNG" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+                        <h3>Our Ratings</h3>
+                        <!-- <p class="fst-italic">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                          magna aliqua.
+                        </p> -->
+
+                        <div class="skills-content">
+
+                            <div class="progress">
+                                <span class="skill">Akash Saxena<i class="val">100%</i></span>
+
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <p class="skill">Best computer institute and Anmol sir is very humble and kindness</p>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">KAPIL JAIN<i class="val">100%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <p class="skill">Excellent</p>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Deepak S Yadav<i class="val">100%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <p class="skill">Very supportive staff and good placements..</p>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Shishupal Singh<i class="val">100%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <p class="skill">Good study practical knowledge</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Skills Section -->
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2><b>Courses</b></h2>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">Web Designing</a></h4>
+                            <img src="~/assets/img/web.jpg" class="img-fluid" alt="">
+                            <p>Full Stack Development Bootcamp HTML,Java,script CSS, Boot Strap J.Query , Domain Hosting SEMII Photoshop,Power Point ,<b> PHP MYSQL , Word Press (Live Project) (Web Pages)</b></p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">C#(Sharp)</a></h4>
+                            <img src="~/assets/img/csharp.jpg" class="img-fluid" alt="">
+                            <p>C# is a general-purpose high-level programming language supporting multiple paradigms. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.<b>OOPs Concepts, Web application development</b></p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">Desktop Publishing</a></h4>
+                            <img src="~/assets/img/dtp.png" class="img-fluid" alt="">
+                            <p> Desktop Publishing is the creation of documents using dedicated software on a personal ("desktop") computer. It was first used almost exclusively for print publications, but now it also assists in the creation of various forms of online content.<b>Corel Draw, Photoshop Page Maker Scanning Practical Projects</b></p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">Advance Diploma in Computer Applications (ADCA)  </a></h4>
+                            <img src="~/assets/img/adca.png" class="img-fluid" alt="">
+                            <p>SEM 1 -Computer Fundamantals , Windows ,MS Office , word ,Excel ,Powerpoint ,Internet, Projects SEM 2 - Corel Draw ,Photoshop , Pagemaker , Projects SEM 3 - Tally7.2 ,<b> ERP 9 with prime , GST Entry Sestem , HTML ,Projects</b></p>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">Course On Computer Concept (CCC) </a></h4>
+                            <img src="~/assets/img/ccc.png" class="img-fluid" alt="">
+                            <p>Certificate Awarded by NIELIT an Autonomausis Scientific Society of<b> Department of Electronins &IT ( Deity ) Govt of India</b></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">TALLY</a></h4>
+                            <img src="~/assets/img/tally.png" class="img-fluid" alt="">
+                            <p>Manual Accounting Basic Concept of Accounting Principles ,Cash Book ,Ledgers,Tax Invoice ,Credit Note ,Debit Note,Share Entry System, Profit& Loss A/c ,Trial Balance Sheet ,<b>Manufacturing Stock Reg., Job Work ,Journal Entry.</b></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">O' Level</a></h4>
+                            <img src="~/assets/img/olevel.jpg" class="img-fluid" alt="">
+                            <p>Sem.1 M1-R5:Information Technology Tool and Network Basics M2-R5:Web Designing & Publishing Sem.2 M3-R5:Programming &problum Solving through Python M4-R5:Internet of Things & its Application<b> PR1-R5-Practical-M1,M2,M3,M4,Project</b></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">Computer Advance Basic Course</a></h4>
+                            <img src="~/assets/img/cabc.jpg" class="img-fluid" alt="">
+                            <p>Computer Fundamentals (With Hardware & Networking Concept), Operating System Windows/Linux, Typing, Office(mS Office/Libra), Word/Writer, Excel/Calc, Powerpoint/Impress, Outlook, <b>Internet Setting, Cloud data Base, Cybers security, Projects.</b></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Services Section -->
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+            <div class="container" data-aos="zoom-in">
+
+                <div class="row">
+                    <div class="col-lg-9 text-center text-lg-start">
+                        <h3>Register Your course</h3>
+                        <p> At Micro, we are committed to providing high-quality training and education to our students. We understand the importance of these skills in today's digital age and believe that everyone should have the opportunity to learn and grow in this field.</p>
+                    </div>
+                    <div class="col-lg-3 cta-btn-container text-center">
+                        <a class="cta-btn align-middle" href="#">Register Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Cta Section -->
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Photos</h2>
+
+                </div>
+
+                <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">Inside</li>
+                    <li data-filter=".filter-card">Outside</li>
+                    <li data-filter=".filter-web">Others</li>
+                </ul>
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-img"><img src="~/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>App 1</h4>
+                            <p>App</p>
+                            <a href="~/assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="~/assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <a href="~/assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-img"><img src="~/assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>App 2</h4>
+                            <p>App</p>
+                            <a href="~/assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-img"><img src="~/assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Card 2</h4>
+                            <p>Card</p>
+                            <a href="~/assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="~/assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Web 2</h4>
+                            <p>Web</p>
+                            <a href="~/assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-img"><img src="~/assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>App 3</h4>
+                            <p>App</p>
+                            <a href="~/assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-img"><img src="~/assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Card 1</h4>
+                            <p>Card</p>
+                            <a href="~/assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-img"><img src="~/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Card 3</h4>
+                            <p>Card</p>
+                            <a href="~/assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-img"><img src="~/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <a href="~/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Portfolio Section -->
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2><u>OUR EXPERIENCED STAFFS</u></h2>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="~/assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Anmol Upadhyay</h4>
+                                <span>Director</span>
+                                <p>Upto 10 Year's Teaching Experience as a Coding Teacher</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="~/assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Neelam Upadhyay</h4>
+                                <span>Marketing Head</span>
+                                <p>18 Year's Experience in Marketing and Parabanking Sector</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="~/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Gopesh Kulshreshtha</h4>
+                                <span>Accounts Teacher</span>
+                                <p>5 Year's Teaching Experience in Accounting & Taxation</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="~/assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Vishwas Upadhyay</h4>
+                                <span>Manager</span>
+                                <p>Upto 12 Year's Experience in Banking Sector</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Team Section -->
+        <!-- ======= Pricing Section ======= -->
+        <section id="pricing" class="pricing">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Course Detail and Fees Structure</h2>
+                    <p></p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="box">
+                            <h3>DIPLOMA IN COMPUTER APPLICATION ( S-S-S-S-D-01 )</h3>
+                            <h4><sup>Course Fees: </sup>4500/-  <span style="text-decoration: line-through; color: red;"> 5500.00/- </span><span>Full Fee</span></h4>
+                            <ul>
+                                <li><i class="bx bx-check"></i> Fundamental of Computers</li>
+                                <li><i class="bx bx-check"></i> Disk Operating System( Windows)</li>
+                                <li><i class="bx bx-check"></i> Microsoft Office</li>
+                                <li><i class="bx bx-check"></i> <span>Internet & Email/ Drafting.</span></li>
+                                <li><i class="bx bx-check"></i> <span>Making Presentation With Presentation Skills</span></li>
+                            </ul>
+                            <a href="#" class="buy-btn">Get Started</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+                        <div class="box featured">
+                            <h3>ADVANCE DIPLOMA IN INFORMATION TECHNOLOGY ( M-M-M-D-12 )</h3>
+                            <h4><sup>Course Fees: </sup>12600/-  <span style="text-decoration: line-through; color: red;"> 18000/- </span><span>Full Fee</span></h4>
+                            <ul>
+                                <li><i class="bx bx-check"></i> Fundamental and OS</li>
+                                <li><i class="bx bx-check"></i> MS-Office (Latest version)</li>
+                                <li><i class="bx bx-check"></i> Advance Excel</li>
+                                <li><i class="bx bx-check"></i> <span>Desktop Publishing</span></li>
+                                <li><i class="bx bx-check"></i> <span>Typing (Hindi/ English)</span></li>
+                                <li><i class="bx bx-check"></i> <span>Accounts (Tally and GST)</span></li>
+                                <li><i class="bx bx-check"></i> <span>HTML</span></li>
+                                <li><i class="bx bx-check"></i> <span>Basic Concept of CSS</span></li>
+                                <li><i class="bx bx-check"></i> <span>Project</span></li>
+                            </ul>
+                            <a href="#" class="buy-btn">Get Started</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                        <div class="box">
+                            <h3>MASTER DIPLOMA IN COMPUTER APPLICATION ( M-M-D-04 )</h3>
+                            <h4><sup>Course Fees: </sup>15000/-  <span style="text-decoration: line-through; color: red;"> 20000/- </span><span>Full Fee</span></h4>
+                            <ul>
+                                <li><i class="bx bx-check"></i> Fundamental and OS</li>
+                                <li><i class="bx bx-check"></i> MS-Office (Latest version)</li>
+                                <li><i class="bx bx-check"></i> Advance Excel</li>
+                                <li><i class="bx bx-check"></i> <span>Typing (Hindi/ English)</span></li>
+                                <li><i class="bx bx-check"></i> <span>Desktop Publishing</span></li>
+                                <li><i class="bx bx-check"></i> <span>Accounts (Tally and GST)</span></li>
+                                <li><i class="bx bx-check"></i> <span>HTML</span></li>
+                                <li><i class="bx bx-check"></i> <span>Basic Concept of CSS</span></li>
+                                <li><i class="bx bx-check"></i> <span>Hardware/ Networking</span></li>
+                                <li><i class="bx bx-check"></i> <span>& Much More.....</span></li>
+                            </ul>
+                            <a href="#" class="buy-btn">Get Started</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Pricing Section -->
+        <!-- ======= Frequently Asked Questions Section ======= -->
+        <section id="faq" class="faq section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                    <p></p>
+                </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1"> What is the Eligibility to join this course?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                                <p>
+                                    Candidates must have completed their Class 10th test from a recognized board with a minimum of 55% score as well as the Diploma Entrance test, to pursue a CSE study at the UG and PG levels.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What is the duration of Course?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Computer Course Basic is a 3 -6 months certification course that focuses on providing basic knowledge about the computers such as computer fundamentals and the Internet.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What is the fee for online exemption test?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    For undergoing the Online Exemption Test: Only Students can be enrolled for the online exemption test.Rate chargeable from student Rs.500.00 (Fee for all Students)
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">How many attempts will be provided for online exemption test against the fee submitted by him for the same?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    2 (Two) attempts will be allowed for the student to clear the online exemption test within a period of 30 (thirty) days against the fees of Rs.500/- (Service Tax extra on actual), which will be paid by the student during the Registration for online exemption test. In case the student is not able to clear the online exemption test in the given two attempts within a period of 30 (thirty) days, then he / she can re-enroll for the online exemption test by paying the complete fees once again.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="500">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What are the minimum number of students for the batch to be initiated? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    The minimum batch size in all centers in all cities will be 8-10. We will ensure that the batch is immediately started as and when the minimum registration is done. In case the required minimum number of students is not available, We shall not defer the commencement of the batch indefinitely and in any case not beyond (3) three months.
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section><!-- End Frequently Asked Questions Section -->
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Contact</h2>
+                    <p></p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-12 d-flex align-items-stretch">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>MIG 125, Jawahar Puram,Albatiya Road<br>Shahganj- Agra, Pin- 282010</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>mctc@gmail.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+91- 8533029723</p>
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3549.2456604804047!2d77.95968852544881!3d27.18001472648892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d27.1811364!2d77.962443!4m5!1s0x397477afbf5e571b%3A0x8630f9100c35a1e5!2smicro%20computer%20training%20center%20on%20google%20map%20link%20for%20html%20and%20css!3m2!1d27.1778721!2d77.96225079999999!5e0!3m2!1sen!2sin!4v1708161504284!5m2!1sen!2sin" width="1230" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                    </div>
+                </div><br />
+                    @using (Html.BeginForm("Create", "Home", FormMethod.Post, new {@class="form-horizontal",role="form"}))
+                    { 
+                      <div class="col-lg-12 d-flex align-items-stretch">
+                          <div class="info">
+                              <div class="row">
+                                  <div class="form-group col-md-6">
+                                      <label for="name"><strong>Your Name</strong></label>
+                                      <input type="text" name="Name" class="form-control" id="Name" required>
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                      <label for="name"><strong>Your Email</strong></label>
+                                      <input type="email" class="form-control" name="Email_Id" id="Email_Id" required>
+                                  </div>
+
+                                  <div class="form-group">
+                                      <label for="name"><strong>Subject</strong></label>
+                                      <input type="text" class="form-control" name="Subject" id="Subject" required>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="name"><strong>Message</strong></label>
+                                      <textarea class="form-control" name="Message" id="Message" rows="10" required></textarea>
+                                  </div>
+                                  <div class="my-3">
+                                      <div class="sent-message">@ViewBag.Issucess</div>
+                                  </div>
+                                  <div class="text-center"><button class="btn btn-primary" type="submit">Send Message</button></div>
+                              </div>
+                          </div>
+                      </div>
+                    }
+                
+
+            </div>
+        </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h4>Join Our Newsletter</h4>
+                        <p></p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Micro Computer Training Center</h3>
+                        <p>
+                            MIG 125, Jawahar Puram Albatiya Road,<br>
+                            Shahaganj, Agra 282010<br>
+                            Uttar Pradesh<br><br>
+                            <strong>Phone:</strong> +91- 8533029723<br>
+                            <strong>Email:</strong> mctc@gmail.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Diploma in Computer Application</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Programming Languages</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Diploma in Financial Accounting</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Designing Courses</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Social Networks</h4>
+
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="https://www.facebook.com/Mctc2015/" class="facebook" target="blank"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="instagram" target="blank"><i class="bx bxl-instagram"></i></a>
+                            <a href="#" class="google-plus" target="blank"><i class="bx bxl-skype"></i></a>
+                            <a href="#" class="linkedin" target="blank"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Micro Computer Training Center</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+
+                Designed by <a href="#">Micro Computer Training Center</a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+    <script src="~/assets/vendor/aos/aos.js"></script>
+    <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="~/assets/vendor/php-email-form/validate.js"></script>
+
+
+    <script src="~/assets/js/main.js"></script>
+
+</body>
+
+</html>
