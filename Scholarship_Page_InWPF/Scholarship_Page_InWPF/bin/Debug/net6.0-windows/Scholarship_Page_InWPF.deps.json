@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Scholarship_Page_InWPF/1.0.0": {
+        "runtime": {
+          "Scholarship_Page_InWPF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Scholarship_Page_InWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

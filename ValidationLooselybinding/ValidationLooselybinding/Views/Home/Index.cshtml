@@ -1,0 +1,72 @@
+﻿@model ValidationLooselybinding.Models.Employee
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+</head>
+<body>
+    <style>
+        .field-validation-error {
+            color: #E80C4D;
+            font-weight: bold;
+        }
+
+        .field-validation-valid {
+            display: none;
+        }
+    </style>
+    <div>
+        @using (Html.BeginForm("SubmitData", "Home", FormMethod.Post))
+        {    // Loosely Binding
+            @* @Html.TextBox("FirstName")<br /><br />
+            @Html.ValidationMessage("FirstName","*")<br />
+
+            @Html.TextBox("LastName")<br /><br />
+            @Html.ValidationMessage("LastName", "*")<br />
+            @Html.TextBox("Email")<br /><br />
+            @Html.ValidationMessage("Email", "*")<br />
+            @Html.Editor("Age")<br /><br />
+            @Html.ValidationMessage("Age", "*")<br />
+            <br />
+            <input type="submit" value="Click Me" />
+            @Html.ValidationSummary(false, "All Fields are Required")*@
+
+            //Strongly Binding
+            @*@Html.TextBoxFor(x => x.FirstName)<br /><br />
+            @Html.ValidationMessageFor(x => x.FirstName)<br />
+
+            @Html.TextBoxFor(x => x.LastName)<br /><br />
+            @Html.ValidationMessageFor(x => x.LastName)<br />
+
+            @Html.TextBoxFor(x => x.Email)<br /><br />
+            @Html.ValidationMessageFor(x=>x.Email)<br />
+            @Html.EditorFor(x=>x.Age)<br /><br />
+
+            @Html.ValidationMessageFor(x=>x.Age)<br />
+            <br />
+            <input type="submit" value="Click Me" />
+            //Validation Summary
+            @Html.ValidationSummary(false, "All Fields are Required")*@
+
+            //Validation Summary
+            @Html.TextBoxFor(x => x.FirstName)<br /><br />
+            @Html.TextBoxFor(x => x.LastName)<br /><br />
+
+            @Html.TextBoxFor(x => x.Email)<br /><br />
+
+            @Html.EditorFor(x => x.Age)<br /><br />
+            <br />
+            <input type="submit" value="Click Me" />
+            //Validation Summary
+            @Html.ValidationSummary()
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\InlineHtmlHelpers.props" />
+</Project>

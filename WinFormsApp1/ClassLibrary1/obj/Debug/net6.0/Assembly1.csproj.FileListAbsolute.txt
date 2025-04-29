@@ -1,0 +1,12 @@
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\bin\Debug\net6.0\Assembly1.deps.json
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\bin\Debug\net6.0\Assembly1.dll
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\bin\Debug\net6.0\Assembly1.pdb
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\Assembly1.csproj.AssemblyReference.cache
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\Assembly1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\Assembly1.AssemblyInfoInputs.cache
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\Assembly1.AssemblyInfo.cs
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\Assembly1.csproj.CoreCompileInputs.cache
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\Assembly1.dll
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\refint\Assembly1.dll
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\Assembly1.pdb
+C:\Users\Anmol\source\repos\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\ref\Assembly1.dll

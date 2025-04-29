@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "List";
+}
+
+@Ajax.ActionLink("Countries","Countries", new AjaxOptions()
+{
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "Listcontainer",
+    LoadingElementId = "loader",
+    LoadingElementDuration = 300
+
+})
+
+@Ajax.ActionLink("States","States", new AjaxOptions()
+{
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "Listcontainer",
+    LoadingElementId = "loader",
+    LoadingElementDuration = 300
+})
+
+@Ajax.ActionLink("City","City", new AjaxOptions()
+{
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "Listcontainer",
+    LoadingElementId = "loader",
+    LoadingElementDuration = 300
+})
+
+<div style="display:none" id="loader">
+    <img src="~/Content/icegif-1262.gif" height="100" width="200" />
+</div>
+
+
+<div id="Listcontainer">
+
+</div>

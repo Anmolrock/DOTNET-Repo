@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{716876D6-8313-40C9-B8E1-2A0CCB10F2F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Db", "MyApp.Db\MyApp.Db.csproj", "{B8846C04-B095-430D-B41C-6803D1E374CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Models", "MyApp.Models\MyApp.Models.csproj", "{387502DE-B081-4AD3-B225-2A9B29E23C7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{716876D6-8313-40C9-B8E1-2A0CCB10F2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716876D6-8313-40C9-B8E1-2A0CCB10F2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716876D6-8313-40C9-B8E1-2A0CCB10F2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716876D6-8313-40C9-B8E1-2A0CCB10F2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8846C04-B095-430D-B41C-6803D1E374CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8846C04-B095-430D-B41C-6803D1E374CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8846C04-B095-430D-B41C-6803D1E374CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8846C04-B095-430D-B41C-6803D1E374CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387502DE-B081-4AD3-B225-2A9B29E23C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387502DE-B081-4AD3-B225-2A9B29E23C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387502DE-B081-4AD3-B225-2A9B29E23C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387502DE-B081-4AD3-B225-2A9B29E23C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE3E2BAD-3003-465D-8F28-88A84600967A}
+	EndGlobalSection
+EndGlobal

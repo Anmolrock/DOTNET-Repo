@@ -1,0 +1,12 @@
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\bin\Debug\LinqToSQLLLLLL.exe.config
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\bin\Debug\LinqToSQLLLLLL.exe
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\bin\Debug\LinqToSQLLLLLL.pdb
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\obj\Debug\LinqToSQLLLLLL.csproj.AssemblyReference.cache
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\obj\Debug\LinqToSQLLLLLL.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\obj\Debug\LinqToSQLLLLLL.Form1.resources
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\obj\Debug\LinqToSQLLLLLL.Properties.Resources.resources
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\obj\Debug\LinqToSQLLLLLL.csproj.GenerateResource.cache
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\obj\Debug\LinqToSQLLLLLL.csproj.CoreCompileInputs.cache
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\obj\Debug\LinqToSQLLLLLL.exe
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\obj\Debug\LinqToSQLLLLLL.pdb
+C:\Users\Anmol\source\repos\LinqToSQLLLLLL\LinqToSQLLLLLL\obj\Debug\LinqToSQLLLLLL.Form2.resources

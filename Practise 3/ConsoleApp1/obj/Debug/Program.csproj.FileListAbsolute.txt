@@ -1,0 +1,8 @@
+C:\Users\Anmol\source\repos\Practise 3\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Anmol\source\repos\Practise 3\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Anmol\source\repos\Practise 3\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Anmol\source\repos\Practise 3\ConsoleApp1\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Users\Anmol\source\repos\Practise 3\ConsoleApp1\obj\Debug\Program.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anmol\source\repos\Practise 3\ConsoleApp1\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Users\Anmol\source\repos\Practise 3\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Anmol\source\repos\Practise 3\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

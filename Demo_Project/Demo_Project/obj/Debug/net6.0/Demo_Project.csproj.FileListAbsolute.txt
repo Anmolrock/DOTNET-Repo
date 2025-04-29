@@ -1,0 +1,15 @@
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\bin\Debug\net6.0\Demo_Project.exe
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\bin\Debug\net6.0\Demo_Project.deps.json
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\bin\Debug\net6.0\Demo_Project.runtimeconfig.json
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\bin\Debug\net6.0\Demo_Project.dll
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\bin\Debug\net6.0\Demo_Project.pdb
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\obj\Debug\net6.0\Demo_Project.csproj.AssemblyReference.cache
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\obj\Debug\net6.0\Demo_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\obj\Debug\net6.0\Demo_Project.AssemblyInfoInputs.cache
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\obj\Debug\net6.0\Demo_Project.AssemblyInfo.cs
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\obj\Debug\net6.0\Demo_Project.csproj.CoreCompileInputs.cache
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\obj\Debug\net6.0\Demo_Project.dll
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\obj\Debug\net6.0\refint\Demo_Project.dll
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\obj\Debug\net6.0\Demo_Project.pdb
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\obj\Debug\net6.0\Demo_Project.genruntimeconfig.cache
+C:\Users\Anmol\source\repos\Demo_Project\Demo_Project\obj\Debug\net6.0\ref\Demo_Project.dll

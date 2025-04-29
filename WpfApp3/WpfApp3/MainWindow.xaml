@@ -1,0 +1,48 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title = "U.P Scholarship" Height = "768" Width = "1024" >
+    <Grid HorizontalAlignment = "Center" Margin = "0,10,0,0" VerticalAlignment = "Top" >
+
+        <Rectangle Fill = "#FF26FCE5" HorizontalAlignment = "Center" Height = "134" Stroke = "Brown" StrokeThickness = "2" VerticalAlignment = "Top" Width = "1004" />
+        <Image Source = "D:\Uplogo.jpg" HorizontalAlignment = "Left" Height = "100" Margin = "35,10,0,0" VerticalAlignment = "Top" Width = "100" />
+        <Image Source = "D:\Fish.Png" HorizontalAlignment = "Right" Height = "100" Margin = "0,38,0,0" VerticalAlignment = "Top" Width = "100" />
+        <Label Content = "छात्रवृत्ति एवं शुल्क प्रतिपूर्ति ऑनलाइन प्रणाली" HorizontalAlignment = "Center" Margin = "0,20,0,0" VerticalAlignment = "Top" Foreground = "#FFA71515" FontSize = "22" FontWeight = "Bold" />
+        <Label x:Name = "label" Content = "उत्तर प्रदेश" HorizontalAlignment = "Center" Margin = "0,60,0,0" VerticalAlignment = "Top" Foreground = "Black" FontSize = "22" FontWeight = "Bold" />
+        <Canvas ClipToBounds = "True" Name = "canMain" Margin="0,0,0,34">
+            <TextBlock  x:Name = "tbmarquee"    MouseMove="tbmarquee_MouseMove"   Margin = "10,115,0,0" Foreground = "Brown" FontFamily = "calibri" FontSize = "14" FontWeight = "Bold"  HorizontalAlignment = "Left" Width = "311" Height = "27" VerticalAlignment = "Top" >
+                     Scholarship and Fee Reimbursement Online System
+            </TextBlock>
+        </Canvas>
+        <StackPanel Margin="0,134,20,10">
+            <Menu IsMainMenu="True" FontSize="20" Height="38" >
+                <Menu.Resources>
+                    <Style TargetType="Image">
+                        <Setter Property="Height" Value="15" />
+                        <Setter Property="Width" Value="15" />
+                        <Setter Property="Stretch" Value="Fill"/>
+                    </Style>
+                </Menu.Resources>
+                <MenuItem Width="20" Height="25" Margin="5,5,0,3" RenderTransformOrigin="0.633,0.524" IsCheckable="True" Padding="-1,0,0,0" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" >
+                    <MenuItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="2.5" ScaleY="2.5"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="3.99" Y="0.899"/>
+                        </TransformGroup>
+                    </MenuItem.RenderTransform>
+                    <MenuItem.Icon >
+                        <Image  Source="icon.bmp"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+    </Grid>
+
+
+</Window>

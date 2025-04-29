@@ -1,0 +1,33 @@
+﻿<Window x:Class="Wpf_New.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_New"
+        mc:Ignorable="d"
+        Title="U.P Scholarship" Height="768" Width="1024">
+    <Grid HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="143*"/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FF26FCE5" HorizontalAlignment="Center" Height="134" Stroke="Brown" StrokeThickness="2" VerticalAlignment="Top" Width="1004" />
+        <Image Source="D:\Uplogo.jpg" HorizontalAlignment="Left" Height="100" Margin="35,10,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="D:\Fish.Png" HorizontalAlignment="Right" Height="100" Margin="0,38,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="छात्रवृत्ति एवं शुल्क प्रतिपूर्ति ऑनलाइन प्रणाली" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" Foreground="#FFA71515" FontSize="22" FontWeight="Bold"/>
+        <Label x:Name="label" Content="उत्तर प्रदेश" HorizontalAlignment="Center" Margin="0,60,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="22" FontWeight="Bold"/>
+        <Canvas ClipToBounds="True" Name="canMain" Grid.RowSpan="1" >
+            <TextBlock  x:Name="tbmarquee"     MouseMove="tbmarquee_MouseMove"   Margin="10,115,0,0" Foreground="Brown" FontFamily="calibri" FontSize="14" FontWeight="Bold"  HorizontalAlignment="Left" Width="311" Height="27" VerticalAlignment="Top"  >
+        Scholarship and Fee Reimbursement Online System
+            </TextBlock>
+        </Canvas>
+        <StackPanel Margin="0,134,0,50" Grid.RowSpan="2">
+            <Image Source="icon.png" Width="20" Height="20"> </Image>
+            <Menu IsMainMenu="True">
+                <MenuItem Icon="Image/icon.png"></MenuItem>
+            </Menu>
+        </StackPanel>
+    </Grid>
+
+
+</Window>

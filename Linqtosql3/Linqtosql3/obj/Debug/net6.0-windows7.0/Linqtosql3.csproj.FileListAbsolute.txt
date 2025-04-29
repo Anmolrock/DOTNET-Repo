@@ -1,0 +1,10 @@
+C:\Users\Anmol\source\repos\Linqtosql3\Linqtosql3\obj\Debug\net6.0-windows7.0\Linqtosql3.csproj.AssemblyReference.cache
+C:\Users\Anmol\source\repos\Linqtosql3\Linqtosql3\obj\Debug\net6.0-windows7.0\Linqtosql3.csproj.ResolveComReference.cache
+C:\Users\Anmol\source\repos\Linqtosql3\Linqtosql3\obj\Debug\net6.0-windows7.0\Linqtosql3.Form1.resources
+C:\Users\Anmol\source\repos\Linqtosql3\Linqtosql3\obj\Debug\net6.0-windows7.0\Linqtosql3.Properties.Resource1.resources
+C:\Users\Anmol\source\repos\Linqtosql3\Linqtosql3\obj\Debug\net6.0-windows7.0\Linqtosql3.Properties.Resources.resources
+C:\Users\Anmol\source\repos\Linqtosql3\Linqtosql3\obj\Debug\net6.0-windows7.0\Linqtosql3.csproj.GenerateResource.cache
+C:\Users\Anmol\source\repos\Linqtosql3\Linqtosql3\obj\Debug\net6.0-windows7.0\Linqtosql3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anmol\source\repos\Linqtosql3\Linqtosql3\obj\Debug\net6.0-windows7.0\Linqtosql3.AssemblyInfoInputs.cache
+C:\Users\Anmol\source\repos\Linqtosql3\Linqtosql3\obj\Debug\net6.0-windows7.0\Linqtosql3.AssemblyInfo.cs
+C:\Users\Anmol\source\repos\Linqtosql3\Linqtosql3\obj\Debug\net6.0-windows7.0\Linqtosql3.csproj.CoreCompileInputs.cache

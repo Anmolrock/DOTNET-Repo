@@ -1,0 +1,170 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:System="clr-namespace:System;assembly=System.Runtime"
+    x:Class="Scholarship_Page_InWPF.MainWindow"
+        mc:Ignorable="d"
+        Title = "U.P Scholarship" Height = "768" Width = "1024" >
+    <Grid  Background="#FF49DFF1" HorizontalAlignment = "Center" Margin = "0,10,0,0" VerticalAlignment = "Top" Height="725" >
+        <Rectangle Fill= "#FF26FCE5" HorizontalAlignment= "Center" Height = "134" Stroke = "Brown" StrokeThickness = "2" VerticalAlignment = "Top" Width = "1004" />
+        <Image Source = "D:\Uplogo.jpg" HorizontalAlignment = "Left" Height = "100" Margin = "35,10,0,0" VerticalAlignment = "Top" Width = "100" />
+        <Image Source = "D:\Fish.Png" HorizontalAlignment = "Right" Height = "100" Margin = "0,9,0,0" VerticalAlignment = "Top" Width = "100" />
+        <Image Source = "D:\yogi.Png" HorizontalAlignment = "Right" Height = "100" Margin = "0,31,111,0" VerticalAlignment = "Top" Width = "100" />
+        <Image Source = "D:\digital.Png" HorizontalAlignment = "Left" Height = "100" Margin = "896,55,0,0" VerticalAlignment = "Top" Width = "100" />
+        <Label Content = "छात्रवृत्ति एवं शुल्क प्रतिपूर्ति ऑनलाइन प्रणाली" HorizontalAlignment = "Center" Margin = "0,20,0,0" VerticalAlignment = "Top" Foreground = "#FFA71515" FontSize = "22" FontWeight = "Bold" />
+        <Label x:Name = "label" Content = "उत्तर प्रदेश" HorizontalAlignment = "Center" Margin = "0,60,0,0" VerticalAlignment = "Top" Foreground = "Black" FontSize = "22" FontWeight = "Bold" />
+        <Label x:Name = "label1" Content = "मा. मुख्यमंत्री जी" HorizontalAlignment = "Left" VerticalAlignment = "Top" Foreground = "Black" FontSize = "12" FontWeight = "Bold" Margin="803,109,0,0" />
+        <Canvas ClipToBounds = "True"  x:Name = "canMain" Margin="0,0,0,585">
+            <TextBlock  x:Name = "tbmarquee"    MouseMove="tbmarquee_MouseMove"   Margin = "10,115,0,0" Foreground = "Brown" FontFamily = "calibri" FontSize = "14" FontWeight = "Bold"  HorizontalAlignment = "Left" Width = "311" Height = "27" VerticalAlignment = "Top" ><Run Text="Scholarship and Fee Reimbursement Online System"/></TextBlock>
+        </Canvas>
+        <StackPanel Margin="0,134,0,-250">
+            <Menu IsMainMenu="True" FontSize="20" Height="38" Width="1004" >
+                <Menu.Resources>
+                    <Style TargetType="{x:Type Image}">
+                        <Setter Property="Height" Value="15" />
+                        <Setter Property="Width" Value="15" />
+                        <Setter Property="Stretch" Value="Fill"/>
+                        <Setter Property="Margin" Value="0,0,0,0"/>
+                    </Style>
+                </Menu.Resources>
+                <MenuItem Style="{DynamicResource MenuItemStyle2}" Width="23" Height="25" Margin="4,0,0,0" RenderTransformOrigin="-0.02,0.506"    >
+                    <MenuItem.RenderTransform >
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="2.5" ScaleY="2.5"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="-16" Y="0.224"/>
+                        </TransformGroup>
+                    </MenuItem.RenderTransform>
+                    <MenuItem.Icon >
+                        <Image  Source="icon.bmp"/>
+                        
+                    </MenuItem.Icon >
+                </MenuItem>
+                <MenuItem Width="150" BorderThickness="2" Header="Student" Margin="10,0,0,0" FontFamily = "calibri" FontSize="27"   Focusable="True" BorderBrush="Black" >
+                    <MenuItem FontSize="20" Header="Registration" Background="#FF030303" Foreground="White"/>
+                    <MenuItem FontSize="20" Header="Fresh Login" Background="#FF030303" Foreground="White">
+                        <MenuItem FontSize="20" Header="Prematric Student Login" Background="#FF030303" Foreground="White"/>
+                        <MenuItem FontSize="20" Header="Intermediate Student Login" Background="#FF030303" Foreground="White"/>
+                        <MenuItem FontSize="20" Header="Postmatric OtherThan Inter Student Login" Background="#FF030303" Foreground="White"/>
+                        <MenuItem FontSize="20" Header="Postmatric OtherState Student Login" Background="#FF030303" Foreground="White"/>
+                    </MenuItem>
+                    <MenuItem FontSize="20" Header="Renewal Login" Background="#FF030303" Foreground="White"/>
+                </MenuItem>
+                <MenuItem BorderThickness="2" FontFamily = "calibri" FontSize="27" Header="LOGIN" BorderBrush="Black" Width="150">
+                    <MenuItem FontSize="20" Header="Student Login" Background="#FF030303" Foreground="White"/>
+                    <MenuItem FontSize="20" Header="College Login" Background="#FF030303" Foreground="White"/>
+                </MenuItem>
+                <MenuItem BorderThickness="2" FontFamily = "calibri" FontSize="27" Header="REPORT" BorderBrush="Black" Width="150"/>
+                <MenuItem BorderThickness="2" FontFamily = "calibri" FontSize="27" Header="STATUS" BorderBrush="Black" Width="150"/>
+                <MenuItem BorderThickness="2" FontFamily = "calibri" FontSize="27" Header="CONTACT US" BorderBrush="Black" Width="180"/>
+                <MenuItem BorderThickness="2" FontFamily = "calibri" FontSize="27" Header="HELP" BorderBrush="Black" Width="150"/>
+            </Menu>
+
+
+        </StackPanel>
+        <Rectangle HorizontalAlignment="Center" Height="27" Margin="0,172,0,0" VerticalAlignment="Top" Width="1004" Fill="#FF2087CB" />
+        <ScrollBar    Margin="988,199,0,0" />
+
+        <Canvas ClipToBounds = "True" x:Name = "canMain2" Margin="0,173,0,526">
+            <TextBlock  x:Name = "tbmarquee1"    MouseMove="tbmarquee1_MouseMove" Foreground = "White" FontFamily = "calibri" FontSize = "14" FontWeight = "Bold"  HorizontalAlignment="Left" Width = "575" Height = "27" VerticalAlignment="Center" Canvas.Top="5" Canvas.Left="13" ><Run Text="&quot;उ०प्र० में कक्षा 9-10 सत्र 2019-20 में अध्यानरत छात्र/छात्राओ के लिए ऑनलाइन रजिस्ट्रेशन फॉर्म&quot;"/></TextBlock>
+        </Canvas>
+        <TextBlock Foreground="Red"  FontSize="9.5" HorizontalAlignment="Left" Margin="10,209,0,0" Text="(रजिस्ट्रेशन फॉर्म छात्र / छात्रा द्वारा सही - सही भरा जाए | जन्मतिथि, नाम तथा पिता का नाम उपलब्ध साक्ष्य के अनुसार भरी जाय| आवेदन पत्र में तारांकित (*) बॉक्स में प्रविष्टि किया जाना अनिवार्य है| सभी बॉक्सो में प्रविष्टियाँ अंग्रेजी भाषा के कैपिटल लेटर्स में अंकित की जानी है)  " VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight" TextWrapping="WrapWithOverflow" Width="973"/>
+        <Label FontSize="16" Margin="10,228,750,468" Content="1:जिला (जहाँ छात्र / छात्रा अध्ययनरत है|)" FontFamily="Segoe UI" />
+        <Label FontSize="16" Margin="505,228,305,468" Content="2:शिक्षण संस्थान" FontFamily="Segoe UI" />
+        <Label FontSize="16" Margin="10,284,861,412" Content="3:वर्ग / जाती समूह" FontFamily="Segoe UI" />
+        <Label FontSize="16" Margin="504,284,367,412" Content="4:धर्म" FontFamily="Segoe UI" />
+        <Label FontSize="16" Margin="11,345,860,351" Content="5:छात्र / छात्रा का नाम" FontFamily="Segoe UI" />
+        <Label FontSize="16" Margin="504,345,367,351" Content="6:पिता का नाम" FontFamily="Segoe UI" />
+        <Label FontSize="16" Margin="12,417,859,279" Content="7:माता का नाम" FontFamily="Segoe UI" />
+        <Label FontSize="16" Margin="505,417,340,279" Content="8:जमतिथि (dd/mm/yyyy)" FontFamily="Segoe UI" />
+        <Label FontSize="16" Margin="15,487,830,209" Content="9:लिंग" FontFamily="Segoe UI" />
+        <Label FontSize="16" Margin="505,487,340,209" Content="10:कक्षा -8 उत्तीर्ण करने का वर्ष" FontFamily="Segoe UI" />
+        <ComboBox   HorizontalAlignment="Left" Margin="18,261,0,0" VerticalAlignment="Top" Width="429">
+            <System:String>Agra</System:String>
+            <System:String>Aligarh</System:String>
+            <System:String>Allahabad</System:String>
+            <System:String>Ambedkar Nagar</System:String>
+            <System:String>Auraiya</System:String>
+            <System:String>Azamgarh</System:String>
+            <System:String>Bagpat</System:String>
+        </ComboBox>
+        <ComboBox   HorizontalAlignment="Left" Margin="18,318,0,0" VerticalAlignment="Top" Width="429">
+            <System:String>सामान्य वर्ग</System:String>
+            <System:String>अनुसूचित वर्ग</System:String>
+            <System:String>पिछड़ा वर्ग</System:String>
+        </ComboBox>
+        <ComboBox   HorizontalAlignment="Left" Margin="512,318,0,0" VerticalAlignment="Top" Width="429">
+            <System:String>हिन्दू</System:String>
+            <System:String>मुस्लिम</System:String>
+            <System:String>अन्य</System:String>
+        </ComboBox>
+
+        <ComboBox   HorizontalAlignment="Left" Margin="22,518,0,0" VerticalAlignment="Top" Width="429">
+            <System:String>पुरुष</System:String>
+            <System:String>महिला</System:String>
+        </ComboBox>
+
+        <ComboBox   HorizontalAlignment="Left" Margin="512,518,0,0" VerticalAlignment="Top" Width="429">
+            <System:String>2022</System:String>
+            <System:String>2021</System:String>
+            <System:String>2020</System:String>
+            <System:String>2019</System:String>
+            <System:String>2018</System:String>
+            <System:String>2017</System:String>
+            <System:String>2016</System:String>
+            <System:String>2015</System:String>
+            <System:String>2014</System:String>
+            <System:String>2013</System:String>
+            <System:String>2012</System:String>
+            <System:String>2011</System:String>
+            <System:String>2010</System:String>
+            <System:String>2009</System:String>
+        </ComboBox>
+
+        <ComboBox HorizontalAlignment="Left" Margin="512,261,0,0" VerticalAlignment="Top" Width="429">
+            <System:String>SBS Girls College, Agra</System:String>
+            <System:String>ACE College Of Engineering and Management, Etmadpura</System:String>
+            <System:String>Heritage Institute Of Hotel and Tourism HIHT, Agra</System:String>
+            <System:String>Chaudhary Beeri Singh College Of Engineering and Management, Agra</System:String>
+            <System:String>Neelam College Of Engineering and Technology NCET, Kirawali</System:String>
+            <System:String>Faculty Of Engineering and Technology Agra College, Agra</System:String>
+            <System:String>Hindustan Institute Of Technology And Management HITM, Agra</System:String>
+        </ComboBox>
+        <TextBox Margin="18,379,570,313">
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Cut" Command="Cut"/>
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+        <TextBox Margin="509,379,79,313">
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Cut" Command="Cut"/>
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+
+        <TextBox Margin="19,449,569,243">
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Cut" Command="Cut"/>
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+
+        <TextBox Margin="509,449,79,243">
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Cut" Command="Cut"/>
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+
+    </Grid>
+
+
+</Window>

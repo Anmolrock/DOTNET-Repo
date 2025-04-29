@@ -1,0 +1,8 @@
+C:\Users\Anmol\source\repos\Arrays\Intro_Array\bin\Debug\Intro_Array.exe.config
+C:\Users\Anmol\source\repos\Arrays\Intro_Array\bin\Debug\Intro_Array.exe
+C:\Users\Anmol\source\repos\Arrays\Intro_Array\bin\Debug\Intro_Array.pdb
+C:\Users\Anmol\source\repos\Arrays\Intro_Array\obj\Debug\Intro_Array.csproj.AssemblyReference.cache
+C:\Users\Anmol\source\repos\Arrays\Intro_Array\obj\Debug\Intro_Array.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anmol\source\repos\Arrays\Intro_Array\obj\Debug\Intro_Array.csproj.CoreCompileInputs.cache
+C:\Users\Anmol\source\repos\Arrays\Intro_Array\obj\Debug\Intro_Array.exe
+C:\Users\Anmol\source\repos\Arrays\Intro_Array\obj\Debug\Intro_Array.pdb

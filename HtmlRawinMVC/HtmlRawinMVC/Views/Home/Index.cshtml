@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div> @*Html.Raw simply convert the html tags into a string format*@
+        @Html.Raw("<h1>Hello this is a HTml Raw Helper</h1>")
+        @Html.Raw("<h1>Hello this is a HTml Raw Helper</h1>")
+        @Html.Raw("<table><th>" +
+       "<td>Name</td>" +
+       "<td>Father's Name</td>" +
+       "<td>Mother's Name</td>" +
+       "<td>Course Name</td>" +
+       "<td>Duration</td>" +
+       "<td>Mobile No</td>" +
+       "</th></table>")
+    </div>
+</body>
+</html>

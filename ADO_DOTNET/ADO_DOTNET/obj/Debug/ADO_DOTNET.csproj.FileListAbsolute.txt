@@ -1,0 +1,11 @@
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\obj\Debug\ADO_DOTNET.csproj.AssemblyReference.cache
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\obj\Debug\ADO_DOTNET.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\obj\Debug\ADO_DOTNET.Form1.resources
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\obj\Debug\ADO_DOTNET.Properties.Resources.resources
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\obj\Debug\ADO_DOTNET.csproj.GenerateResource.cache
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\obj\Debug\ADO_DOTNET.csproj.CoreCompileInputs.cache
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\bin\Debug\ADO_DOTNET.exe.config
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\bin\Debug\ADO_DOTNET.exe
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\bin\Debug\ADO_DOTNET.pdb
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\obj\Debug\ADO_DOTNET.exe
+C:\Users\Anmol\source\repos\ADO_DOTNET\ADO_DOTNET\obj\Debug\ADO_DOTNET.pdb

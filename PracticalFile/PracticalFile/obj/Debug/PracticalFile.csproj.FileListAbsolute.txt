@@ -1,0 +1,8 @@
+C:\Users\Anmol\source\repos\PracticalFile\PracticalFile\obj\Debug\PracticalFile.csproj.AssemblyReference.cache
+C:\Users\Anmol\source\repos\PracticalFile\PracticalFile\obj\Debug\PracticalFile.csproj.CoreCompileInputs.cache
+C:\Users\Anmol\source\repos\PracticalFile\PracticalFile\bin\Debug\PracticalFile.pdb
+C:\Users\Anmol\source\repos\PracticalFile\PracticalFile\obj\Debug\PracticalFile.pdb
+C:\Users\Anmol\source\repos\PracticalFile\PracticalFile\bin\Debug\PracticalFile.exe.config
+C:\Users\Anmol\source\repos\PracticalFile\PracticalFile\bin\Debug\PracticalFile.exe
+C:\Users\Anmol\source\repos\PracticalFile\PracticalFile\obj\Debug\PracticalFile.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anmol\source\repos\PracticalFile\PracticalFile\obj\Debug\PracticalFile.exe

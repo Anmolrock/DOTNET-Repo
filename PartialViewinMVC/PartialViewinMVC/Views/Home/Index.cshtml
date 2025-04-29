@@ -1,0 +1,40 @@
+﻿@model IEnumerable<PartialViewinMVC.Models.Employee>
+@{
+    ViewBag.Title = "Index";
+    /*int n = 10;*/
+}
+
+@foreach (var item in Model)
+{
+    Html.RenderPartial("_Card", item);
+    var a = @Html.Partial("_Card", item);
+}
+
+@*@Html.Partial MvcHtmlString return karta hai
+    Jabki @Html.RenderPartial void Return Karta hai
+    
+    aur fast ki baat kare to 
+    agar data controller se lana hai to @Html.Partial ka use karo
+    otherwise agar data view par hai ya page per hai to @Html.renderpartial ka use karo
+    *@
+
+
+
+
+
+
+
+
+
+
+@*@for (int i = 0; i < n; i++)
+    {
+        @Html.Partial("_Card")//Partial View
+    }*@
+
+@*Partial View has 2 Types
+    1. @Html.Partial("View Name")
+    2. @Html.RenderPartial("View Name")*@
+
+<hr />
+@*@Html.Partial("_Card")*@

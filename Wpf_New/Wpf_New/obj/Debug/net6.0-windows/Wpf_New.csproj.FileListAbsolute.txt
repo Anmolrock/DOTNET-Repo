@@ -1,0 +1,8 @@
+C:\Users\Anmol\source\repos\Wpf_New\Wpf_New\obj\Debug\net6.0-windows\Wpf_New.csproj.AssemblyReference.cache
+C:\Users\Anmol\source\repos\Wpf_New\Wpf_New\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Anmol\source\repos\Wpf_New\Wpf_New\obj\Debug\net6.0-windows\Wpf_New_MarkupCompile.cache
+C:\Users\Anmol\source\repos\Wpf_New\Wpf_New\obj\Debug\net6.0-windows\Wpf_New.g.resources
+C:\Users\Anmol\source\repos\Wpf_New\Wpf_New\obj\Debug\net6.0-windows\Wpf_New.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anmol\source\repos\Wpf_New\Wpf_New\obj\Debug\net6.0-windows\Wpf_New.AssemblyInfoInputs.cache
+C:\Users\Anmol\source\repos\Wpf_New\Wpf_New\obj\Debug\net6.0-windows\Wpf_New.AssemblyInfo.cs
+C:\Users\Anmol\source\repos\Wpf_New\Wpf_New\obj\Debug\net6.0-windows\Wpf_New.csproj.CoreCompileInputs.cache

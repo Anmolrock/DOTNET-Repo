@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+</head>
+<body>
+    <header style="background-color:aqua;height:100px">
+        <h1>This is Header</h1>
+        @RenderPage("~/Views/Home/Index2.cshtml","Anmol","MVC",123)
+    </header>
+        <div>
+            @RenderBody()
+        </div>
+    
+    <footer style="background-color:blueviolet;height:100px">
+        <h1>This is Footer</h1>
+        </footer>
+</body>
+</html>

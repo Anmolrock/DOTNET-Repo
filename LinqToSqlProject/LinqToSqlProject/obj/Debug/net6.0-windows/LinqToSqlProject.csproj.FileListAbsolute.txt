@@ -1,0 +1,17 @@
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\bin\Debug\net6.0-windows\LinqToSqlProject.exe
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\bin\Debug\net6.0-windows\LinqToSqlProject.deps.json
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\bin\Debug\net6.0-windows\LinqToSqlProject.runtimeconfig.json
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\bin\Debug\net6.0-windows\LinqToSqlProject.dll
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\bin\Debug\net6.0-windows\LinqToSqlProject.pdb
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\LinqToSqlProject.csproj.AssemblyReference.cache
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\LinqToSqlProject.Form1.resources
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\LinqToSqlProject.csproj.GenerateResource.cache
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\LinqToSqlProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\LinqToSqlProject.AssemblyInfoInputs.cache
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\LinqToSqlProject.AssemblyInfo.cs
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\LinqToSqlProject.csproj.CoreCompileInputs.cache
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\LinqToSqlProject.dll
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\refint\LinqToSqlProject.dll
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\LinqToSqlProject.pdb
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\LinqToSqlProject.genruntimeconfig.cache
+C:\Users\Anmol\source\repos\LinqToSqlProject\LinqToSqlProject\obj\Debug\net6.0-windows\ref\LinqToSqlProject.dll

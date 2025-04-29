@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anmol\\source\\repos\\WebApplication7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F90EB8D3-99EB-4093-8830-766193AB3F8B}|WebApplication7\\WebApplication7.csproj|c:\\users\\anmol\\source\\repos\\webapplication7\\webapplication7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F90EB8D3-99EB-4093-8830-766193AB3F8B}|WebApplication7\\WebApplication7.csproj|solutionrelative:webapplication7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Anmol\\source\\repos\\WebApplication7\\WebApplication7\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication7\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Anmol\\source\\repos\\WebApplication7\\WebApplication7\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication7\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:03:02.696Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
